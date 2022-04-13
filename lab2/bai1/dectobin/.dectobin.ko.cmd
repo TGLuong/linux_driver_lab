@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab2/bai1/dectobin/dectobin.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/lab2/bai1/dectobin/dectobin.ko /home/embedded/lap-trinh-driver/lab2/bai1/dectobin/dectobin.o /home/embedded/lap-trinh-driver/lab2/bai1/dectobin/dectobin.mod.o;  true

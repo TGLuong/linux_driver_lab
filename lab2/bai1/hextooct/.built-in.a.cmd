@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab2/bai1/hextooct/built-in.a := rm -f /home/embedded/lap-trinh-driver/lab2/bai1/hextooct/built-in.a; ar cDPrST /home/embedded/lap-trinh-driver/lab2/bai1/hextooct/built-in.a 

@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab2/bai1/bintooct/bintooct.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/lab2/bai1/bintooct/bintooct.ko /home/embedded/lap-trinh-driver/lab2/bai1/bintooct/bintooct.o /home/embedded/lap-trinh-driver/lab2/bai1/bintooct/bintooct.mod.o;  true

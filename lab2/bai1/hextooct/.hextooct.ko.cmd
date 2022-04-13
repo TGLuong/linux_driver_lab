@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab2/bai1/hextooct/hextooct.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/lab2/bai1/hextooct/hextooct.ko /home/embedded/lap-trinh-driver/lab2/bai1/hextooct/hextooct.o /home/embedded/lap-trinh-driver/lab2/bai1/hextooct/hextooct.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab2/bai1/dectohex/dectohex.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/lab2/bai1/dectohex/dectohex.ko /home/embedded/lap-trinh-driver/lab2/bai1/dectohex/dectohex.o /home/embedded/lap-trinh-driver/lab2/bai1/dectohex/dectohex.mod.o;  true

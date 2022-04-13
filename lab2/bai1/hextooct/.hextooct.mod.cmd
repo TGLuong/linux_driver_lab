@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab2/bai1/hextooct/hextooct.mod := { echo  /home/embedded/lap-trinh-driver/lab2/bai1/hextooct/hextooct.o;  echo; } > /home/embedded/lap-trinh-driver/lab2/bai1/hextooct/hextooct.mod

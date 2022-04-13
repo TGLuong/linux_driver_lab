@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab2/bai1/octtohex/octtohex.mod := { echo  /home/embedded/lap-trinh-driver/lab2/bai1/octtohex/octtohex.o;  echo; } > /home/embedded/lap-trinh-driver/lab2/bai1/octtohex/octtohex.mod

@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab2/bai1/bintodec/bintodec.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/lab2/bai1/bintodec/bintodec.ko /home/embedded/lap-trinh-driver/lab2/bai1/bintodec/bintodec.o /home/embedded/lap-trinh-driver/lab2/bai1/bintodec/bintodec.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab3/test/charDrv0_Simple.mod := { echo  /home/embedded/lap-trinh-driver/lab3/test/charDrv0_Simple.o;  echo; } > /home/embedded/lap-trinh-driver/lab3/test/charDrv0_Simple.mod

@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab3/test/charDrv0_Simple.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/lab3/test/charDrv0_Simple.ko /home/embedded/lap-trinh-driver/lab3/test/charDrv0_Simple.o /home/embedded/lap-trinh-driver/lab3/test/charDrv0_Simple.mod.o;  true

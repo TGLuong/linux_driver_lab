@@ -6,7 +6,7 @@ obj-m := ${MODULE_NAME}.o
 
 KDIR := /lib/modules/`uname -r`/build
 
-plant_text ?= '"tran gia luong"'
+plant_text ?= '"nguyen van duy"'
 
 k1 ?= 1
 k2 ?= qwertyuioplkjhgfdsazxcvbnm

@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/character-device/exp1/char-dv-0.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/character-device/exp1/char-dv-0.ko /home/embedded/lap-trinh-driver/character-device/exp1/char-dv-0.o /home/embedded/lap-trinh-driver/character-device/exp1/char-dv-0.mod.o;  true

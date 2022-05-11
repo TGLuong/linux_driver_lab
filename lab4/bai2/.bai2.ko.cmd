@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/lab4/bai2/bai2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/lab4/bai2/bai2.ko /home/embedded/lap-trinh-driver/lab4/bai2/bai2.o /home/embedded/lap-trinh-driver/lab4/bai2/bai2.mod.o;  true

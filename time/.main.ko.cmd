@@ -1,0 +1,1 @@
+cmd_/home/embedded/lap-trinh-driver/time/main.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/embedded/lap-trinh-driver/time/main.ko /home/embedded/lap-trinh-driver/time/main.o /home/embedded/lap-trinh-driver/time/main.mod.o;  true

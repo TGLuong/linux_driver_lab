@@ -8,7 +8,7 @@
 
 
 int main() {
-    int fd = open("/dev/lab5_2_tran_gia_luong", O_RDWR);
+    int fd = open("/dev/lab5_2_mai_lam", O_RDWR);
     if (fd == -1) {
         printf("khong mo dc file\n");
         exit(0);

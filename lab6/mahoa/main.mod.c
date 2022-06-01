@@ -25,6 +25,9 @@ MODULE_INFO(retpoline, "Y");
 static const struct modversion_info ____versions[]
 __used __section(__versions) = {
 	{ 0xb3753869, "module_layout" },
+	{ 0xde4c1a24, "param_ops_charp" },
+	{ 0x5ab5b891, "param_ops_int" },
+	{ 0xa3bf6975, "param_array_ops" },
 	{ 0x6091b333, "unregister_chrdev_region" },
 	{ 0xb356c301, "class_destroy" },
 	{ 0xc38c6801, "device_destroy" },
@@ -38,20 +41,19 @@ __used __section(__versions) = {
 	{ 0xc79de84d, "device_create" },
 	{ 0x8d62ea07, "__class_create" },
 	{ 0xe3ec2f2b, "alloc_chrdev_region" },
-	{ 0x188ea314, "jiffies_to_timespec64" },
-	{ 0x5e515be6, "ktime_get_ts64" },
+	{ 0xcbd4898c, "fortify_panic" },
 	{ 0xdecd0b29, "__stack_chk_fail" },
-	{ 0x3c3ff9fd, "sprintf" },
-	{ 0x9a1fc4b4, "jiffies_to_timeval" },
-	{ 0x15ba50a6, "jiffies" },
+	{ 0x11089ac7, "_ctype" },
+	{ 0xa916b694, "strnlen" },
 	{ 0xb44ad4b3, "_copy_to_user" },
+	{ 0xc5850110, "printk" },
+	{ 0xbcab6ee6, "sscanf" },
 	{ 0x362ef408, "_copy_from_user" },
 	{ 0x88db9f48, "__check_object_size" },
-	{ 0xc5850110, "printk" },
 	{ 0xbdfb6dbb, "__fentry__" },
 };
 
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "5A2E0D3BF4688A875DB1C5F");
+MODULE_INFO(srcversion, "58C7C97BF3AF84CD9A96F2C");

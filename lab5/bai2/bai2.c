@@ -80,7 +80,7 @@ static ssize_t write_fun(struct file * file, const char * user_buf, size_t len, 
 static int md_init(void) {
     alloc_chrdev_region(&dev_num, 0, 1, "thietbi");
     device_class = class_create(THIS_MODULE, "lop");
-    device_create(device_class, NULL, dev_num, NULL, "lab5_2_tran_gia_luong");
+    device_create(device_class, NULL, dev_num, NULL, "lab5_2_mai_lam");
 
     kernel_buffer = kmalloc(MEM_SIZE, GFP_KERNEL);
 

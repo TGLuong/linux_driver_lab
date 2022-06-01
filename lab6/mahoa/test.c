@@ -58,11 +58,67 @@ int main() {
                 printf("ban ma: %s\n", value);
                 getchar();
                 break;
+            
+            case 3:
+                memset(buffer, 0, sizeof(buffer));
+
+                sprintf(buffer, "cmd:%s\nvalue:%s\n", "ma-hoa-thay-the", value);
+
+                write(fd, buffer, MEM_SIZE);
+                
+                memset(value, 0, sizeof(value));
+                read(fd, value, sizeof(value));
+
+                printf("ban ma: %s\n", value);
+                getchar();
+                break;
+
+            case 4:
+                memset(buffer, 0, sizeof(buffer));
+
+                sprintf(buffer, "cmd:%s\nvalue:%s\n", "ma-hoa-hoan-vi", value);
+
+                write(fd, buffer, MEM_SIZE);
+                
+                memset(value, 0, sizeof(value));
+                read(fd, value, sizeof(value));
+
+                printf("ban ma: %s\n", value);
+                getchar();
+                break;
 
             case 5:
                 memset(buffer, 0, MEM_SIZE);
 
                 sprintf(buffer, "cmd:%s\nvalue:%s\n", "giai-ma-dich-chuyen", value);
+
+                write(fd, buffer, MEM_SIZE);
+
+                memset(value, 0, sizeof(value));
+                read(fd, value, sizeof(value));
+
+                printf("ban ro: %s\n", value);
+                getchar();
+                break;
+
+            case 6:
+                memset(buffer, 0, MEM_SIZE);
+
+                sprintf(buffer, "cmd:%s\nvalue:%s\n", "giai-ma-thay-the", value);
+
+                write(fd, buffer, MEM_SIZE);
+
+                memset(value, 0, sizeof(value));
+                read(fd, value, sizeof(value));
+
+                printf("ban ro: %s\n", value);
+                getchar();
+                break;
+
+            case 7:
+                memset(buffer, 0, MEM_SIZE);
+
+                sprintf(buffer, "cmd:%s\nvalue:%s\n", "giai-ma-hoan-vi", value);
 
                 write(fd, buffer, MEM_SIZE);
 

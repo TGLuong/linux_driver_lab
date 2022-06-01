@@ -48,15 +48,21 @@ static ssize_t read_fun(struct file * file, char * user_buf, size_t len, loff_t 
     }
 
     if (strcmp(cmd, "ma-hoa-thay-the") == 0) {
-        memset(buffer, 0, sizeof(buffer));
-        for (i = 0; i < strlen(value); i++) {
-            buffer[i] = plant_text[k3[i]];
+        strcpy(buffer, value);
+        for(i = 0; i < strlen(buffer); i++) {
+            if (isalpha(buffer[i])) buffer[i] = k2[buffer[i] - 97];
         }
     }
 
     if (strcmp(cmd, "ma-hoa-hoan-vi") == 0) {
-
+        memset(buffer, 0, sizeof(buffer));
+        if (length == strlen(value)) {
+            for (i = 0; i < strlen(value); i++) {
+                buffer[i] = value[k3[i]];
+            }
+        }
     }
+
 
     if (strcmp(cmd, "giai-ma-dich-chuyen") == 0) {
         strcpy(buffer, value);
@@ -64,6 +70,27 @@ static ssize_t read_fun(struct file * file, char * user_buf, size_t len, loff_t 
             if (isalpha(buffer[i])) {
                 buffer[i] -= k1;
                 while (!isalpha(buffer[i])) buffer[i] += 26;
+            }
+        }
+    }
+
+    if (strcmp(cmd, "giai-ma-thay-the") == 0) {
+        memset(buffer, 0, sizeof(buffer));
+        int j;
+        for (i = 0; i < strlen(value); i++) {
+            for (j = 0; j < strlen(k2); j++) {
+                if (value[i] == k2[j]) {
+                    buffer[i] = j + 97;
+                }
+            }
+        }
+    }
+
+    if (strcmp(cmd, "giai-ma-hoan-vi") == 0) {
+        memset(buffer, 0, sizeof(buffer));
+        if (length == strlen(value)) {
+            for (i = 0; i < strlen(value); i++) {
+                buffer[k3[i]] = value[i];
             }
         }
     }

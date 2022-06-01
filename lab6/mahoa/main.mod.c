@@ -43,6 +43,7 @@ __used __section(__versions) = {
 	{ 0xe3ec2f2b, "alloc_chrdev_region" },
 	{ 0xcbd4898c, "fortify_panic" },
 	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0x754d539c, "strlen" },
 	{ 0x11089ac7, "_ctype" },
 	{ 0xa916b694, "strnlen" },
 	{ 0xb44ad4b3, "_copy_to_user" },
@@ -56,4 +57,4 @@ __used __section(__versions) = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "58C7C97BF3AF84CD9A96F2C");
+MODULE_INFO(srcversion, "62784118D9F874D6AF79D10");

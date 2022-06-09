@@ -1,4 +1,4 @@
-### lab7
+## lab7
 Viết 1 driver mật mã dạng Character driver cài đặt một số thuật toán băm: MD5, SHA1, SHA2. </br>
 Viết chương trình người dùng sử dụng thư viện mật mã trên theo menu chức năng sau:</br>
 Menu chức năng:</br>

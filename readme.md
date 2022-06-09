@@ -1,3 +1,14 @@
+## lab1
+
+## lab2
+
+## lab3
+
+## lab4
+1. Viết 1 character driver theo cách cấp phát device number động, tên driver = lab4.1 + tên sinh viên. Và viết chương trình sử dụng driver này từ không gian người dùng.4
+2. Viết 1 character driver theo cách cấp phát device number tĩnh, tên driver = lab4.2 +
+tên sinh viên. Và viết chương trình sử dụng driver này từ không gian người dùng.
+
 ## lab5
 1.   Viết 1 character driver theo cách cấp phát device number động, tên driver = lab5.1 + tên
     sinh viên. Driver thực hiện công việc sau: cung cấp hàm nhận 1 số hệ 10 từ không gian

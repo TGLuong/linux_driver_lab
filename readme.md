@@ -1,6 +1,42 @@
 ## lab1
+1. Viết mô-đun nhân thực hiện công việc sau rồi insert vào nhân và thực thi
+```
+- Tính tổng các phần tử trong chuỗi số
+- Tìm ƯCLN của 2 số
+```
+2. Viết mô-đun nhân thực hiện công việc sau rồi insert vào nhân và thực thi
+```
+- Tìm giá trị lớn nhất và nhỏ nhất trong chuỗi số
+- Trung bình cộng của chuỗi số.
+```
+3. Viết mô-đun nhân thực hiện công việc sau rồi insert vào nhân và thực thi
+```
+- Tính tổng các phần tử trong ma trận
+- Đếm số phần tử dương, âm trong ma trận
+- Tìm giá trị lớn nhất, nhỏ nhất trên đường chéo chính, chéo phụ
+- Tính tổng các số chẵn, lẻ trong ma trận
+```
+4. Viết mô-đun nhân tìm ƯCLN của 1 chuỗi số. Chuỗi số được truyền vào cho mô-đun nhân
 
 ## lab2
+1. Viết mô-đun nhân thực hiện các công việc sau:
+```
+- Chuyển từ số hệ 16 sang hệ 2
+- Chuyển số hệ 10 sang hệ 2
+- Chuyển số hệ 10 sang hệ 16
+- Chuyển số hệ 2 sang hệ 8
+- Chuyển số hệ 8 sang 16
+- Chuyển số hệ 16 sang 8
+- Chuyển số từ hệ 2 sang hệ 10
+```
+
+2. Viết mô-đun nhân thao tác trên xâu
+```
+- Đếm số ký tự của một xâu cài đặt theo ký tự kết thúc
+- Đảo ngược xâu trong hai trường hợp cài đặt theo độ dài và ký tự kết thúc
+- Chuẩn hóa xâu
+- Nối hai xâu
+```
 
 ## lab3
 1. Viết mô-đun nhân thực hiện các công việc sau:

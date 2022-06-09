@@ -1,3 +1,10 @@
+## lab5
+1. Viết 1 character driver theo cách cấp phát device number động, tên driver = lab5.1 + tên
+sinh viên. Driver thực hiện công việc sau: cung cấp hàm nhận 1 số hệ 10 từ không gian
+người dùng, chuyển số hệ 10 sang hệ 2, 8, 16 và lưu ra thiết bị; cho phép đọc các số hệ 10,
+2, 8, 16 tương ứng.</br>
+    Viết chương trình người dùng thực hiện menu chức năng sau:
+
 ## lab6
 Viết 1 driver mật mã dạng Character driver cài đặt một số thuật toán mã hoá như: mã dịch chuyển, mã hoán vị, mã thay thế.</br>
 Viết chương trình người dùng sử dụng thư viện mật mã trên theo menu chức năng sau</br>

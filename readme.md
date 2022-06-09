@@ -10,6 +10,7 @@
     4. Đọc số hệ 8
     5. Đọc số hệ 16
     6. Đóng thiết bị và kết thúc ctr
+
 2.  Viết 1 character driver theo cách cấp phát device number động, tên driver = lab5.2 + tên
     sinh viên. Driver thực hiện việc lấy thời gian tuyệt đối (trong nhân) chính xác đến micro
     giây, nano giây và thời gian tương đối.</br>

@@ -3,7 +3,7 @@
     sinh viên. Driver thực hiện công việc sau: cung cấp hàm nhận 1 số hệ 10 từ không gian
     người dùng, chuyển số hệ 10 sang hệ 2, 8, 16 và lưu ra thiết bị; cho phép đọc các số hệ 10,
     2, 8, 16 tương ứng.</br>
-    Viết chương trình người dùng thực hiện menu chức năng sau:
+    Viết chương trình người dùng thực hiện menu chức năng sau:</br>
     1. Open thiết bị
     2. Nhập số hệ 10 và ghi ra thiết bị số hệ 10, 2, 8, 16
     3. Đọc số hệ 2

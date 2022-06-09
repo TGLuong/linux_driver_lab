@@ -3,6 +3,12 @@
 ## lab2
 
 ## lab3
+1. Viết mô-đun nhân thực hiện các công việc sau:
+```
+- Tính tích vô hướng của 2 vector
+- Tính tổng, hiệu, tích 2 ma trận
+- Tính chỉnh hợp chập k của N
+```
 
 ## lab4
 1. Viết 1 character driver theo cách cấp phát device number động, tên driver = lab4.1 + tên sinh viên. Và viết chương trình sử dụng driver này từ không gian người dùng.4

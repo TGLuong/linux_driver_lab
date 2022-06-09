@@ -4,6 +4,12 @@ sinh viên. Driver thực hiện công việc sau: cung cấp hàm nhận 1 số
 người dùng, chuyển số hệ 10 sang hệ 2, 8, 16 và lưu ra thiết bị; cho phép đọc các số hệ 10,
 2, 8, 16 tương ứng.</br>
     Viết chương trình người dùng thực hiện menu chức năng sau:
+    1. Open thiết bị
+    2. Nhập số hệ 10 và ghi ra thiết bị số hệ 10, 2, 8, 16
+    3. Đọc số hệ 2
+    4. Đọc số hệ 8
+    5. Đọc số hệ 16
+    6. Đóng thiết bị và kết thúc ctr
 
 ## lab6
 Viết 1 driver mật mã dạng Character driver cài đặt một số thuật toán mã hoá như: mã dịch chuyển, mã hoán vị, mã thay thế.</br>

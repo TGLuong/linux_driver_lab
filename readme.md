@@ -10,6 +10,23 @@
 - Tính chỉnh hợp chập k của N
 ```
 
+2. Viết mô-đun nhân một số hàm mật mã đơn giản
+
+```
+- Thực hiện mã hóa chuyển vị
+    + Dữ liệu rõ chứa trong XauRo
+    + Khóa K: chứa trong biến nhớ k
+    + Dữ liệu mã chứa trong XauMa
+- Thực hiện mã hóa thay thế
+    + Dữ liệu rõ chứa trong XauRo
+    + Khóa K: mảng các ký tự được thay thế tương ứng
+    + Dữ liệu mã chứa trong XauMa
+- Thực hiện mã hóa hoán vị toàn cục
+    + Dữ liệu rõ chứa trong XauRo
+    + Khóa K: mảng các chỉ số hoán vị tương ứng
+    + Dữ liệu mã chứa trong XauMa
+```
+
 ## lab4
 1. Viết 1 character driver theo cách cấp phát device number động, tên driver = lab4.1 + tên sinh viên. Và viết chương trình sử dụng driver này từ không gian người dùng.4
 2. Viết 1 character driver theo cách cấp phát device number tĩnh, tên driver = lab4.2 +

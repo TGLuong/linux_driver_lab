@@ -23,8 +23,8 @@ struct sdesc {
     char ctx[];
 };
 
-static struct sdesc *init_sdesc(struct crypto_shash *alg)
-{
+static struct sdesc 
+*init_sdesc(struct crypto_shash *alg) {
     struct sdesc *sdesc;
     int size;
 
@@ -36,9 +36,13 @@ static struct sdesc *init_sdesc(struct crypto_shash *alg)
     return sdesc;
 }
 
-static int calc_hash(struct crypto_shash *alg,
-             const unsigned char *data, unsigned int datalen,
-             unsigned char *digest)
+static int 
+calc_hash
+(
+    struct crypto_shash *alg,
+    const unsigned char *data, unsigned int datalen,
+    unsigned char *digest
+)
 {
     struct sdesc *sdesc;
     int ret;
@@ -54,8 +58,13 @@ static int calc_hash(struct crypto_shash *alg,
     return ret;
 }
 
-static int sha1_hash(const unsigned char *data, unsigned int datalen,
-             unsigned char *digest)
+static int 
+sha1_hash
+(
+    const unsigned char *data, 
+    unsigned int        datalen,
+    unsigned char       *digest
+)
 {
     struct crypto_shash *alg;
     char *hash_alg_name = "sha1";
@@ -71,8 +80,13 @@ static int sha1_hash(const unsigned char *data, unsigned int datalen,
     return ret;
 }
 
-static int sha224_hash(const unsigned char *data, unsigned int datalen,
-             unsigned char *digest)
+static int 
+sha224_hash
+(
+    const unsigned char *data, 
+    unsigned int datalen,
+    unsigned char *digest
+)
 {
     struct crypto_shash *alg;
     char *hash_alg_name = "sha224";
@@ -88,8 +102,13 @@ static int sha224_hash(const unsigned char *data, unsigned int datalen,
     return ret;
 }
 
-static int md5_hash(const unsigned char *data, unsigned int datalen,
-             unsigned char *digest)
+static int 
+md5_hash
+(
+    const unsigned char *data, 
+    unsigned int datalen,
+    unsigned char *digest
+)
 {
     struct crypto_shash *alg;
     char *hash_alg_name = "md5";
@@ -114,7 +133,15 @@ static int release_fun(struct inode * inode, struct file * file) {
     return 0;
 }
 
-static ssize_t read_fun(struct file * file, char * user_buf, size_t len, loff_t * off) {
+static ssize_t 
+read_fun
+(
+    struct file *file, 
+    char        *user_buf, 
+    size_t      len, 
+    loff_t      *off
+) 
+{
     char out[30];
     int i, return_length;
 
@@ -138,7 +165,15 @@ static ssize_t read_fun(struct file * file, char * user_buf, size_t len, loff_t 
 }
 
 
-static ssize_t write_fun(struct file * file, const char * user_buff, size_t len, loff_t * off) {
+static ssize_t 
+write_fun
+(
+    struct file *file, 
+    const char  *user_buff, 
+    size_t      len, 
+    loff_t      *off
+) 
+{
     copy_from_user(kernel_buffer, user_buff, len);
 
     memset(type, 0, sizeof(type));
